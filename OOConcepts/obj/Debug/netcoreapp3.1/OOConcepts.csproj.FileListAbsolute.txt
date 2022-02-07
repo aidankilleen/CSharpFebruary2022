@@ -1,0 +1,13 @@
+C:\BostonScientific\CSharpCourse\OOConcepts\bin\Debug\netcoreapp3.1\OOConcepts.exe
+C:\BostonScientific\CSharpCourse\OOConcepts\bin\Debug\netcoreapp3.1\OOConcepts.deps.json
+C:\BostonScientific\CSharpCourse\OOConcepts\bin\Debug\netcoreapp3.1\OOConcepts.runtimeconfig.json
+C:\BostonScientific\CSharpCourse\OOConcepts\bin\Debug\netcoreapp3.1\OOConcepts.runtimeconfig.dev.json
+C:\BostonScientific\CSharpCourse\OOConcepts\bin\Debug\netcoreapp3.1\OOConcepts.dll
+C:\BostonScientific\CSharpCourse\OOConcepts\bin\Debug\netcoreapp3.1\OOConcepts.pdb
+C:\BostonScientific\CSharpCourse\OOConcepts\obj\Debug\netcoreapp3.1\OOConcepts.csproj.AssemblyReference.cache
+C:\BostonScientific\CSharpCourse\OOConcepts\obj\Debug\netcoreapp3.1\OOConcepts.AssemblyInfoInputs.cache
+C:\BostonScientific\CSharpCourse\OOConcepts\obj\Debug\netcoreapp3.1\OOConcepts.AssemblyInfo.cs
+C:\BostonScientific\CSharpCourse\OOConcepts\obj\Debug\netcoreapp3.1\OOConcepts.csproj.CoreCompileInputs.cache
+C:\BostonScientific\CSharpCourse\OOConcepts\obj\Debug\netcoreapp3.1\OOConcepts.dll
+C:\BostonScientific\CSharpCourse\OOConcepts\obj\Debug\netcoreapp3.1\OOConcepts.pdb
+C:\BostonScientific\CSharpCourse\OOConcepts\obj\Debug\netcoreapp3.1\OOConcepts.genruntimeconfig.cache
