@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "L5sybN7UQq61Vkeay5TUW5jNGOJvzg2SV9Xkm7nk2GtLmjihYGfRjY/tfYcafGI+X8FMPSbmkIwHmeTcCbpakA==",
+  "success": true,
+  "projectFilePath": "C:\\BostonScientific\\CSharpCourse\\OOConcepts\\OOConcepts.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\HP201802\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.18\\microsoft.netcore.app.host.win-x64.3.1.18.nupkg.sha512"
+  ],
+  "logs": []
+}
