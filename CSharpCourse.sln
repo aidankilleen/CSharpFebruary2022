@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonBaseClassTest", "Comm
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringFormattingTest", "StringFormattingTest\StringFormattingTest.csproj", "{D82A5DEE-A088-4E88-97EB-521CE7B10957}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticTest", "StaticTest\StaticTest.csproj", "{8B238B8A-FE79-4D88-A785-CD0467F43D1E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{D82A5DEE-A088-4E88-97EB-521CE7B10957}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D82A5DEE-A088-4E88-97EB-521CE7B10957}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D82A5DEE-A088-4E88-97EB-521CE7B10957}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B238B8A-FE79-4D88-A785-CD0467F43D1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B238B8A-FE79-4D88-A785-CD0467F43D1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B238B8A-FE79-4D88-A785-CD0467F43D1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B238B8A-FE79-4D88-A785-CD0467F43D1E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
