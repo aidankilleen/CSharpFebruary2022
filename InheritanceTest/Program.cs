@@ -33,11 +33,42 @@ namespace InheritanceTest
                 new Manager("Danielle", "Dorgan", "E54321", 8)
             };
 
-
             foreach (Person person in people)
             {
                 person.Display();
             }
+
+            Trainer t = new Trainer("Eve", "Evans", "E32323");
+            t.Teach();
+
+            Tutor tu = new Tutor("Fred", "Flintstone", "CPL");
+            tu.Teach();
+
+
+            ITeacher[] teachers =
+            {
+                new Trainer("Eve", "Evans", "E32323"),
+                new Tutor("Fred", "Flintstone", "CPL")
+            };
+
+            Console.WriteLine("=================================");
+
+            foreach (ITeacher teacher in teachers)
+            {
+                ((Person)teacher).Display();
+                teacher.Teach();
+            }
+
+
+
+
+
+
+
+
+
+
+
 
 
 
