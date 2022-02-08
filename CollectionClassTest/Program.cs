@@ -6,6 +6,9 @@ namespace CollectionClassTest
 {
     class Program
     {
+
+        public static Dictionary<int, Person> personDictionary = new Dictionary<int, Person>();
+
         static void Main(string[] args)
         {
             Console.WriteLine("Colleciton Classes Test");
@@ -140,50 +143,27 @@ namespace CollectionClassTest
 
             }
 
+            Person[] arr = team.ToArray();
+            Dictionary<int, Person>.KeyCollection keys = peopleDictionary.Keys;
 
 
 
+            int i = 99;
 
 
+            var ii = 99;
 
+            ii = 100;
 
+            // ii = "one hundred";
 
+            ///var iii;
 
+            ///iii = 9999;
+            var name = "some string";
+            // name = 999;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+            var arrp = team.ToArray();
 
 
 

@@ -31,5 +31,13 @@ namespace CollectionClassTest
         {
             Console.WriteLine(ToString());
         }
+
+
+        static void Main(string[] args)
+        {
+
+
+            //Program.personDictionary.
+        }
     }
 }

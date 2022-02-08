@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticTest", "StaticTest\St
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectionClassTest", "CollectionClassTest\CollectionClassTest.csproj", "{05A746F9-DFCC-45F6-B737-B54213F6FEF6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBHelloWorld", "DBHelloWorld\DBHelloWorld.csproj", "{96605262-2551-4780-9B8A-8836EACDC49A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{05A746F9-DFCC-45F6-B737-B54213F6FEF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{05A746F9-DFCC-45F6-B737-B54213F6FEF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{05A746F9-DFCC-45F6-B737-B54213F6FEF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96605262-2551-4780-9B8A-8836EACDC49A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96605262-2551-4780-9B8A-8836EACDC49A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96605262-2551-4780-9B8A-8836EACDC49A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96605262-2551-4780-9B8A-8836EACDC49A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
