@@ -8,41 +8,65 @@ namespace ExceptionTest
         {
             Console.WriteLine("Exception Test");
 
+            Random rnd = new Random();
 
+            int x = 10;
+            int y = 0;
+            int answer;
             string s = null;
 
-
-            Console.WriteLine(s.ToUpper());
-
-
-
-
-
             int[] list = { 1, 2, 3, 4, 5 };
-            Console.WriteLine(list[list.Length]);
 
-
-
-
-
-
-
-
-            int x = 100;
-            int y = 0;
-
-            int answer;
-            
             try
             {
-                answer = x / y;
+                switch (rnd.Next(5))
+                {
+                    case 0:
+                        answer = x / y;
+                        break;
 
-            } catch (DivideByZeroException ex)
+                    case 1:
+                        answer = list[5];
+                        break;
+
+                    case 2:
+                        answer = s.Length;
+                        break;
+
+                    case 3:
+                        throw new CustomException("Something went wrong");
+                        
+
+                    default:
+                        answer = 42;
+                        break;
+                }
+            }
+            catch (DivideByZeroException ex)
             {
-                Console.WriteLine("You can't divide by zero!");
+                Console.WriteLine("Divide By 0");
                 answer = 0;
             }
-
+            catch (IndexOutOfRangeException ex)
+            {
+                Console.WriteLine("Index out of range");
+                answer = list[0];
+            }
+            catch (CustomException ex)
+            {
+                Console.WriteLine("The custom exception was thrown");
+                answer = 100;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Some other exception occurred");
+                Console.WriteLine(ex.Message);
+                answer = 99;
+            }
+            finally
+            {
+                Console.WriteLine("This gets run no matter what!");
+            }
 
             Console.WriteLine($"The answer is { answer }");
             Console.WriteLine("Finished");
