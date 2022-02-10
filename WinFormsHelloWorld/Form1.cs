@@ -35,11 +35,113 @@ namespace WinFormsHelloWorld
         {
             User selectedUser = (User)lstUsers.SelectedItem;
 
-            txtName.Text = selectedUser.Name;
-            txtId.Text = $"{ selectedUser.Id }";
-            txtEmail.Text = selectedUser.Email;
-            chkActive.Checked = selectedUser.Active;
+            if (selectedUser != null)
+            {
+                txtName.Text = selectedUser.Name;
+                txtId.Text = $"{ selectedUser.Id }";
+                txtEmail.Text = selectedUser.Email;
+                chkActive.Checked = selectedUser.Active;
 
+
+                if (btnEdit.Enabled == false)
+                {
+                    // get out of editing mode
+                    ConfigureControls(false);
+                }
+            }
+        }
+
+        private void btnDelete_Click(object sender, EventArgs e)
+        {
+            User selectedUser = (User)lstUsers.SelectedItem;
+
+            if (selectedUser != null)
+            {
+                DialogResult result = MessageBox.Show("Are you sure?",
+                                                $"Delete {selectedUser.Name}",
+                                                MessageBoxButtons.YesNo);
+
+                if (result == DialogResult.Yes)
+                {
+                    dao.DeleteUser(selectedUser.Id);
+
+                    // remove user from the list
+                    lstUsers.Items.Remove(selectedUser);
+
+
+                }
+
+            }
+        }
+
+        private void ConfigureControls(bool editing)
+        {
+            txtName.ReadOnly = !editing;
+            txtEmail.ReadOnly = !editing;
+            chkActive.Enabled = editing;
+            btnSave.Enabled = editing;
+            btnCancel.Enabled = editing;
+            btnEdit.Enabled = !editing;
+        }
+        private void btnEdit_Click(object sender, EventArgs e)
+        {
+            User selectedUser = (User)lstUsers.SelectedItem;
+
+            if (selectedUser != null)
+            {
+                ConfigureControls(true);
+            }
+        }
+
+        private void btnSave_Click(object sender, EventArgs e)
+        {
+            User selectedUser = (User)lstUsers.SelectedItem;
+
+            if (selectedUser != null)
+            {
+                string updatedName = txtName.Text;
+                string updatedEmail = txtEmail.Text;
+                bool updatedActive = chkActive.Checked;
+                int id = int.Parse(txtId.Text);
+
+                User updatedUser = new User(id, updatedName, updatedEmail, updatedActive);
+
+                dao.UpdateUser(updatedUser);
+
+                ConfigureControls(false);
+                int index = lstUsers.SelectedIndex;
+                lstUsers.Items[index] = updatedUser;
+
+            }
+        }
+
+        private void btnCancel_Click(object sender, EventArgs e)
+        {
+            User selectedUser = (User)lstUsers.SelectedItem;
+
+            if (selectedUser != null)
+            {
+                txtName.Text = selectedUser.Name;
+                txtEmail.Text = selectedUser.Email;
+                chkActive.Checked = selectedUser.Active;
+
+                ConfigureControls(false);
+            }
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnAdd_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("TBD");
         }
     }
 }
