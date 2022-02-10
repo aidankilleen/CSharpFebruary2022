@@ -140,7 +140,6 @@ namespace WinFormsHelloWorld
             this.label1.Size = new System.Drawing.Size(18, 15);
             this.label1.TabIndex = 12;
             this.label1.Text = "ID";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -150,7 +149,6 @@ namespace WinFormsHelloWorld
             this.label2.Size = new System.Drawing.Size(39, 15);
             this.label2.TabIndex = 13;
             this.label2.Text = "Name";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label3
             // 

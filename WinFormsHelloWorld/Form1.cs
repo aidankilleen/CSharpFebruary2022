@@ -57,7 +57,7 @@ namespace WinFormsHelloWorld
 
             if (selectedUser != null)
             {
-                DialogResult result = MessageBox.Show("Are you sure?",
+                DialogResult result = MessageBox.Show(this, "Are you sure?",
                                                 $"Delete {selectedUser.Name}",
                                                 MessageBoxButtons.YesNo);
 
@@ -67,10 +67,7 @@ namespace WinFormsHelloWorld
 
                     // remove user from the list
                     lstUsers.Items.Remove(selectedUser);
-
-
                 }
-
             }
         }
 
@@ -129,19 +126,19 @@ namespace WinFormsHelloWorld
             }
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void btnAdd_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("TBD");
+            AddUserForm frmAddUser = new AddUserForm();
+            frmAddUser.User = new User();
+
+            DialogResult result = frmAddUser.ShowDialog(this);
+
+            if (result == DialogResult.OK)
+            {
+                // write the new user object to the database
+                User addedUser = dao.AddUser(frmAddUser.User);
+                lstUsers.Items.Add(addedUser);
+            }
         }
     }
 }
