@@ -45,9 +45,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonFormsTester", "Common
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsTimerTest", "WindowsFormsTimerTest\WindowsFormsTimerTest.csproj", "{190E573F-BA8A-4AA4-A81A-631EBED84D93}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplicationHelloWorld", "WebApplicationHelloWorld\WebApplicationHelloWorld.csproj", "{4213FD9E-B2E5-4075-AC64-83D007C2B925}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		UserDaoLibrary\UserDaoLibrary.projitems*{01de77b1-605e-4f39-9107-40d1ee5d3f3f}*SharedItemsImports = 5
+		UserDaoLibrary\UserDaoLibrary.projitems*{4213fd9e-b2e5-4075-ac64-83d007c2b925}*SharedItemsImports = 5
 		UserDaoLibrary\UserDaoLibrary.projitems*{512a1332-3d04-4da9-a2d1-dad9389f5c98}*SharedItemsImports = 5
 		UserDaoLibrary\UserDaoLibrary.projitems*{53273575-056e-40bb-b50f-be412b8939a7}*SharedItemsImports = 5
 		UserDaoLibrary\UserDaoLibrary.projitems*{9263101c-d448-4d45-a662-d16a217f7bb7}*SharedItemsImports = 13
@@ -138,6 +141,10 @@ Global
 		{190E573F-BA8A-4AA4-A81A-631EBED84D93}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{190E573F-BA8A-4AA4-A81A-631EBED84D93}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{190E573F-BA8A-4AA4-A81A-631EBED84D93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4213FD9E-B2E5-4075-AC64-83D007C2B925}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4213FD9E-B2E5-4075-AC64-83D007C2B925}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4213FD9E-B2E5-4075-AC64-83D007C2B925}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4213FD9E-B2E5-4075-AC64-83D007C2B925}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

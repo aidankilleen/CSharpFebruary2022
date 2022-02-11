@@ -1,0 +1,31 @@
+﻿@{
+    ViewData["Title"] = "Privacy Policy";
+}
+<h1>@ViewData["Title"]</h1>
+
+<p>Use this page to detail your site's privacy policy.</p>
+
+
+<h2>Did this work????</h2>
+
+
+@{ 
+
+    
+    string message = "this is a message";
+
+}
+
+
+<p>@message</p>
+
+@{ 
+    for (int i = 1; i <= 6; i++)
+    {
+        @Html.Raw($"<h{ i }>Hello</h{ i }>")
+
+    }
+}
+
+
+
