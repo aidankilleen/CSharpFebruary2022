@@ -39,6 +39,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqTest", "LinqTest\LinqTe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TupleTest", "TupleTest\TupleTest.csproj", "{1B7FBF98-1253-466E-A9E7-C9B819D6FE7E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonFormsLibrary", "CommonFormsLibrary\CommonFormsLibrary.csproj", "{D70A20A4-D3BD-4911-AEB1-DA98677B1253}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonFormsTester", "CommonFormsTester\CommonFormsTester.csproj", "{AB5FC379-3CE6-4DED-A6E2-A047109AD22C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsTimerTest", "WindowsFormsTimerTest\WindowsFormsTimerTest.csproj", "{190E573F-BA8A-4AA4-A81A-631EBED84D93}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		UserDaoLibrary\UserDaoLibrary.projitems*{01de77b1-605e-4f39-9107-40d1ee5d3f3f}*SharedItemsImports = 5
@@ -120,6 +126,18 @@ Global
 		{1B7FBF98-1253-466E-A9E7-C9B819D6FE7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1B7FBF98-1253-466E-A9E7-C9B819D6FE7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1B7FBF98-1253-466E-A9E7-C9B819D6FE7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D70A20A4-D3BD-4911-AEB1-DA98677B1253}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D70A20A4-D3BD-4911-AEB1-DA98677B1253}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D70A20A4-D3BD-4911-AEB1-DA98677B1253}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D70A20A4-D3BD-4911-AEB1-DA98677B1253}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB5FC379-3CE6-4DED-A6E2-A047109AD22C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB5FC379-3CE6-4DED-A6E2-A047109AD22C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB5FC379-3CE6-4DED-A6E2-A047109AD22C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB5FC379-3CE6-4DED-A6E2-A047109AD22C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{190E573F-BA8A-4AA4-A81A-631EBED84D93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{190E573F-BA8A-4AA4-A81A-631EBED84D93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{190E573F-BA8A-4AA4-A81A-631EBED84D93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{190E573F-BA8A-4AA4-A81A-631EBED84D93}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
