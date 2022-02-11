@@ -92,9 +92,21 @@ namespace LinqTest
                 Console.WriteLine(c);
             }
 
-
-
             dao.Close();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         }
     }
 }

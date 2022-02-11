@@ -33,11 +33,5 @@ namespace CollectionClassTest
         }
 
 
-        static void Main(string[] args)
-        {
-
-
-            //Program.personDictionary.
-        }
     }
 }
