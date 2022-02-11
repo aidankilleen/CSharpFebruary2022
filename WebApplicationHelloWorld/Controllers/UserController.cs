@@ -17,7 +17,7 @@ namespace WebApplicationHelloWorld
             List<User> users = dao.GetUsers();
 
             // TODO send the users to the View...
-            ViewBag.message = "User List";
+            ViewBag.title = "User List";
             ViewBag.users = users;
 
             return View();
